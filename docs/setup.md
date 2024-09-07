@@ -4,13 +4,14 @@
 
     sudo apt update
 
-  sudo apt install parted samba
+      sudo apt install parted samba
 
 **2. Partition the USB Drive**
 
 2.1 Identify the USB Drive
 
-  lsblk
+      lsblk
+  
 2.2 Partition Using (parted)
 
    sudo parted /dev/sda
