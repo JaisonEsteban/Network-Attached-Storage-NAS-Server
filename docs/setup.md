@@ -14,41 +14,41 @@
   
 2.2 Partition Using (parted)
 
-   sudo parted /dev/sda
+       sudo parted /dev/sda
    
 2.3 Create a new partition table:
 
-(parted) mklabel msdos
+(parted)     mklabel msdos
 
 2.4 Create a new partition:
 
-(parted) mkpart primary ext4 0% 100%
+(parted)     mkpart primary ext4 0% 100%
 
 2.5 Exit (parted):
 
-(parted) quit
+    (parted) quit
 
 **3. Format the USB Drive**
 
-    sudo mkfs.ext4 /dev/sda1
+    s    udo mkfs.ext4 /dev/sda1
 
 **4. Mount the USB Drive**
 
 4.1 Create a Mount Point:
 
-  sudo mkdir /media/mydrive
+      sudo mkdir /media/mydrive
 
 4.2 Mount the Drive :
 
-  sudo mount /dev/sda1 /media/mydrive
+      sudo mount /dev/sda1 /media/mydrive
 
 4.3 Make the Mount Persistent:
 
-  sudo nano /etc/fstab
+      sudo nano /etc/fstab
   
   Add the following line:  
     
-  /dev/sda1 /media/mydrive ext4 defaults 0 0
+      /dev/sda1 /media/mydrive ext4 defaults 0 0
   
 **Save and exit (Ctrl+O, Enter, Ctrl+X).**
 
