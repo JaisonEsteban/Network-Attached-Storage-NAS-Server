@@ -39,6 +39,8 @@ Follow the prompts to enter and confirm the password.
 
 ## 2. Access the Share
 
+**Replace <raspberrypi-ip> with the IP address of your Raspberry Pi**
+
 On **Windows**: Use \\<raspberrypi-ip>\shared in File Explorer.
 
 On **Windows**: Open File Explorer and enter \\<raspberrypi-ip>\shared in the address bar.
