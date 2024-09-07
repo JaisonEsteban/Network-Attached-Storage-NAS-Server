@@ -47,6 +47,10 @@ On **macOS**: Use smb://<raspberrypi-ip>/shared in Finder.
 
 On **macOS**: Open Finder, select Go > Connect to Server, and enter smb://<raspberrypi-ip>/shared.
 
-   **Replace <raspberrypi-ip> with the IP address of your Raspberry Pi.**
+   **Replace <raspberrypi-ip> with the IP address of your Raspberry Pi**
+
+
+
+
 
 
