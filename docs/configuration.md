@@ -39,7 +39,7 @@ Follow the prompts to enter and confirm the password.
 
 ## 2. Access the Share
 
-**Replace <raspberrypi-ip> with the IP address of your Raspberry Pi**
+**Replace (raspberrypi-ip) with the IP address of your Raspberry Pi**
 
 On **Windows**: Use \\<raspberrypi-ip>\shared in File Explorer.
 
@@ -49,7 +49,6 @@ On **macOS**: Use smb://<raspberrypi-ip>/shared in Finder.
 
 On **macOS**: Open Finder, select Go > Connect to Server, and enter smb://<raspberrypi-ip>/shared.
 
-**Replace <raspberrypi-ip> with the IP address of your Raspberry Pi**
 
 
 
