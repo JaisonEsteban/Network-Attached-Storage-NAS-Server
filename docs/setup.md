@@ -2,9 +2,9 @@
 
 ## 1. Install Necessary Packages
 
-sudo apt update
+  sudo apt update
 
-sudo apt install parted samba
+  sudo apt install parted samba
 
 **2. Partition the USB Drive**
 
@@ -45,7 +45,7 @@ sudo apt install parted samba
 
   sudo nano /etc/fstab
   
-    Add the following line:  
+  Add the following line:  
     
   /dev/sda1 /media/mydrive ext4 defaults 0 0
   
