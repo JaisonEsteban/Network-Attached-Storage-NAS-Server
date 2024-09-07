@@ -30,7 +30,7 @@
 
 **3. Format the USB Drive**
 
-    s    udo mkfs.ext4 /dev/sda1
+    sudo mkfs.ext4 /dev/sda1
 
 **4. Mount the USB Drive**
 
