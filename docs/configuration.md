@@ -27,7 +27,7 @@
 
       sudo smbpasswd -a pi
 
-Replace [pi] with your username.
+Replace [ pi ] with your username.
 
 1.4 Restart Samba Service
 
