@@ -18,7 +18,7 @@ Check Directory Permissions
 
 Adjust Permissions
 
-      sudo chown -R pi:pi /media/mydrive
+    sudo chown -R pi:pi /media/mydrive
 
 ### 3. Drive Not Mounting
 
@@ -27,7 +27,7 @@ Ensure that the entry is correctly formatted and matches your drive and mount po
 
 **Manually Mount**
 
-          sudo mount -a
+    sudo mount -a
 
 
 Feel free to adjust the content based on your specific setup and preferences!
