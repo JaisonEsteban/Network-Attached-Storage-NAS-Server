@@ -26,6 +26,7 @@ Adjust Permissions
 Ensure that the entry is correctly formatted and matches your drive and mount point.
 
 **Manually Mount**
+
           sudo mount -a
 
 
