@@ -4,7 +4,7 @@
 
     sudo apt update
 
-      sudo apt install parted samba
+    sudo apt install parted samba
 
 **2. Partition the USB Drive**
 
@@ -26,7 +26,7 @@
 
 2.5 Exit (parted):
 
-    (parted) quit
+    (parted)     quit
 
 **3. Format the USB Drive**
 
