@@ -2,7 +2,7 @@
 
 ## 1. Install Necessary Packages
 
-  sudo apt update
+    sudo apt update
 
   sudo apt install parted samba
 
