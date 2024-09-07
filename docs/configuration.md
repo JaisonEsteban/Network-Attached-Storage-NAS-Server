@@ -9,12 +9,17 @@
 1.2 Add a New Share
    At the end of the file, add:
    
-   [shared]
+      [shared]
       path = /media/mydrive
+      
       browseable = yes
+      
       writable = yes
+      
       guest ok = yes
+      
       create mask = 0777
+      
       directory mask = 0777
 
 1.3 Set Samba User Password
