@@ -8,11 +8,17 @@
 
 **2. Partition the USB Drive**
 
-2.1 Identify the USB Drive
+2.1 Identify the USB Drive:
+
+List all storage devices to identify your USB drive
 
       lsblk
+
+Look for the device identifier, such as /dev/sda.
   
-2.2 Partition Using (parted)
+2.2 Partition Using (parted):
+
+Start parted and select your USB drive (replace /dev/sda with your drive identifier)
 
        sudo parted /dev/sda
    
@@ -30,11 +36,15 @@
 
 **3. Format the USB Drive**
 
+3.1 Format the new partition:
+
     sudo mkfs.ext4 /dev/sda1
 
 **4. Mount the USB Drive**
 
 4.1 Create a Mount Point:
+
+Create a directory where the USB drive will be mounted
 
       sudo mkdir /media/mydrive
 
@@ -43,6 +53,8 @@
       sudo mount /dev/sda1 /media/mydrive
 
 4.3 Make the Mount Persistent:
+
+To make the mount persistent across reboots, edit /etc/fstab
 
       sudo nano /etc/fstab
   
