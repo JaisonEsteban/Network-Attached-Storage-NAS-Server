@@ -10,6 +10,7 @@
    At the end of the file, add:
    
       [shared]
+      
       path = /media/mydrive
       
       browseable = yes
