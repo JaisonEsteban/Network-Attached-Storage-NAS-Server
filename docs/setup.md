@@ -22,7 +22,7 @@
 
 2.4 Create a new partition:
 
-(parted)     mkpart primary ext4 0% 100%
+    (parted) mkpart primary ext4 0% 100%
 
 2.5 Exit (parted):
 
