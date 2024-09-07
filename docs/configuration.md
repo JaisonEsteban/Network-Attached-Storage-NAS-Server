@@ -29,7 +29,7 @@
 
       sudo smbpasswd -a pi
 
-Replace [ pi ] with your username.
+Replace ( pi ) with your username.
 
 Follow the prompts to enter and confirm the password.
 
