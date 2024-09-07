@@ -18,7 +18,7 @@
    
 2.3 Create a new partition table:
 
-(parted)     mklabel msdos
+    (parted) mklabel msdos
 
 2.4 Create a new partition:
 
